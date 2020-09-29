@@ -20,74 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6205aa2f-ab5d-4662-8ad4-305a5955061f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile/.buckconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.flowconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.watchmanconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/__tests__/App-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/BUCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/build_defs.bzl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/debug.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/debug/java/com/mobile/ReactNativeFlipper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/java/com/mobile/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/java/com/mobile/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile-tvOS/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile-tvOSTests/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile.xcodeproj/xcshareddata/xcschemes/mobile-tvOS.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile.xcodeproj/xcshareddata/xcschemes/mobile.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile/Images.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobile/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobileTests/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/ios/mobileTests/mobileTests.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/metro.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/asd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/backend/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -221,6 +161,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -228,6 +169,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6205aa2f-ab5d-4662-8ad4-305a5955061f" name="Default Changelist" comment="" />
@@ -236,11 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1601365983340</updated>
       <workItem from="1601365984612" duration="512000" />
+      <workItem from="1601367630769" duration="937000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -252,6 +197,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
