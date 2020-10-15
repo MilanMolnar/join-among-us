@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6205aa2f-ab5d-4662-8ad4-305a5955061f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/app/services/jarwis.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/services/jarwis.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/components/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/components/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/components/signup/signup.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/components/signup/signup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/components/signup/signup.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
