@@ -1,3 +1,4 @@
+import { AuthService } from './../../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { JarwisService } from '../../services/jarwis.service';
 import { TokenService } from 'src/app/services/token.service';
@@ -16,7 +17,8 @@ export class LoginComponent implements OnInit {
   constructor(
     private Jarwis: JarwisService,
     private Token: TokenService,
-    private router: Router
+    private router: Router,
+    private Auth: AuthService
   ) { }
 
   public error = null;
@@ -29,6 +31,7 @@ export class LoginComponent implements OnInit {
   }
   handleResponse(data) {
     this.Token.handle(data.access_token);
+    this.Auth.changeAuthStatus(true);
     this.router.navigateByUrl('/profile');
   }
 
