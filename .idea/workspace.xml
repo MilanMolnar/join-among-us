@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6205aa2f-ab5d-4662-8ad4-305a5955061f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Mail/ResetPasswordMail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/Email/passwordReset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/components/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/components/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/components/password/request-reset/request-reset.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/components/password/request-reset/request-reset.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/components/password/request-reset/request-reset.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/components/password/request-reset/request-reset.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/services/jarwis.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/services/jarwis.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/components/navbar/navbar.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +187,7 @@
       <updated>1601365983340</updated>
       <workItem from="1601365984612" duration="512000" />
       <workItem from="1601367630769" duration="1663000" />
-      <workItem from="1603104435677" duration="3859000" />
+      <workItem from="1603104435677" duration="4813000" />
     </task>
     <servers />
   </component>
