@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Mail\ResetPasswordMail;
 use App\User;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Carbon;
 use Symfony\Component\HttpFoundation\Response;
 
 class ResetPasswordController extends Controller
@@ -20,7 +23,22 @@ class ResetPasswordController extends Controller
    }
 
    public function send($email){
+       $token = $this->createToken($email);
        Mail::to($email)->send(new ResetPasswordMail);
+   }
+
+
+   public function createToken($email){
+       $token = Str::random(60);
+       $this->saveToken($token,$email);
+   }
+
+   public function saveToken($token,$email){
+       DB::table('password_resets')->insert([
+           'email' => $email,
+           'token' => $token,
+           'created_at' => Carbon::now()
+       ]);
    }
 
    public function validateEmail($email){
