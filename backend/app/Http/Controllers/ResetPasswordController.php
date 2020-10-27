@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Carbon;
+use Lcobucci\JWT\Token;
 use Symfony\Component\HttpFoundation\Response;
 
 class ResetPasswordController extends Controller
@@ -24,13 +25,18 @@ class ResetPasswordController extends Controller
 
    public function send($email){
        $token = $this->createToken($email);
-       Mail::to($email)->send(new ResetPasswordMail);
+       Mail::to($email)->send(new ResetPasswordMail($token));
    }
 
 
    public function createToken($email){
+       $oldToken = DB::table('password_resets')->where('email',$email)->first();
+       if($oldToken){
+           return $oldToken;
+       }
        $token = Str::random(60);
        $this->saveToken($token,$email);
+       return $token;
    }
 
    public function saveToken($token,$email){
