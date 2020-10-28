@@ -23,9 +23,8 @@ export class ResponseResetComponent implements OnInit {
     private router: Router,
     private Notify: SnotifyService
   ) {
-    Notify.error("Hello");
     route.queryParams.subscribe(params => {
-      this.form.resetToken = params['token']
+      this.form.resetToken = params.token;
     });
   }
 
@@ -33,6 +32,7 @@ export class ResponseResetComponent implements OnInit {
   }
 
   onSubmit() {
+
     this.Jarwis.changePassword(this.form).subscribe(
       data => this.handleResponse(data),
       error => this.handleError(error)
@@ -40,7 +40,7 @@ export class ResponseResetComponent implements OnInit {
   }
 
   handleResponse(data) {
-    let _router = this.router;
+    const _router = this.router;
     this.Notify.confirm('Done!, Now login with the new password', {
       buttons: [
         {text: 'Okay',

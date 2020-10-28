@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d305f709-2686-4027-b761-ec48242af331" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/app/components/password/response-reset/response-reset.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/app/components/password/response-reset/response-reset.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/src/app/components/password/response-reset/response-reset.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/app/components/password/response-reset/response-reset.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/app/components/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/app/components/signup/signup.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +194,7 @@
       <workItem from="1601888012696" duration="21000" />
       <workItem from="1603883346082" duration="585000" />
       <workItem from="1603884650835" duration="28000" />
-      <workItem from="1603884700761" duration="1737000" />
+      <workItem from="1603884700761" duration="1833000" />
     </task>
     <servers />
   </component>
