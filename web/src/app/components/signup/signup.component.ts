@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { errorMonitor } from 'events';
 import { TokenService } from 'src/app/services/token.service';
 import { JarwisService } from '../../services/jarwis.service';
+import {AuthService} from '../../services/auth.service';
 
 
 @Component({
@@ -12,7 +13,7 @@ import { JarwisService } from '../../services/jarwis.service';
 })
 export class SignupComponent implements OnInit {
 
-  constructor(private Jarwis: JarwisService, private Token: TokenService, private router: Router) { }
+  constructor(private Jarwis: JarwisService, private Token: TokenService, private router: Router, private Auth: AuthService) { }
 
   error = {
     email: null,
@@ -38,6 +39,7 @@ export class SignupComponent implements OnInit {
 
   handleResponse(data) {
     this.Token.handle(data.access_token);
+    this.Auth.changeAuthStatus(true);
     this.router.navigateByUrl('/profile');
   }
 

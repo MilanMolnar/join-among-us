@@ -9,7 +9,7 @@ import { TokenService } from 'src/app/services/token.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  public loggedIn : boolean;
+  public loggedIn: boolean;
 
   constructor(
     private Auth: AuthService,
@@ -26,6 +26,13 @@ export class NavbarComponent implements OnInit {
     this.Token.remove();
     this.Auth.changeAuthStatus(false);
     this.router.navigateByUrl('/login');
+  }
+
+  login(event: MouseEvent){
+    event.preventDefault();
+    this.Token.get();
+    this.Auth.changeAuthStatus(true);
+    this.router.navigateByUrl('/profile');
   }
 
 }
