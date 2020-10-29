@@ -8,6 +8,7 @@ import { SnotifyService } from 'ng-snotify';
   templateUrl: './response-reset.component.html',
   styleUrls: ['./response-reset.component.css']
 })
+
 export class ResponseResetComponent implements OnInit {
   public error = [];
   public form = {
@@ -32,7 +33,6 @@ export class ResponseResetComponent implements OnInit {
   }
 
   onSubmit() {
-
     this.Jarwis.changePassword(this.form).subscribe(
       data => this.handleResponse(data),
       error => this.handleError(error)
@@ -54,7 +54,7 @@ export class ResponseResetComponent implements OnInit {
     _router.navigateByUrl('/login');
   }
 
-  handleError(error){
+  handleError(error) {
     this.error = error.error.errors;
   }
 
